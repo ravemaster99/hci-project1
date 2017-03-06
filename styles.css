@@ -1,39 +1,27 @@
 <html>
   <head>
-    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
-    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
-      title="Wrap Long Lines">
+    <meta  content="text/html; charset=windows-1252"  http-equiv="content-type">
+    <link  rel="alternate stylesheet"  type="text/css"  href="resource://gre-resources/plaintext.css"
+
+       title="Wrap Long Lines">
   </head>
   <body>
-    <pre>&lt;html&gt;
-  &lt;head&gt;
-    &lt;meta content="text/html; charset=windows-1252" http-equiv="content-type"&gt;
-    &lt;link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
-
-      title="Wrap Long Lines"&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;pre&gt;&amp;lt;html&amp;gt;
-  &amp;lt;head&amp;gt;
-    &amp;lt;meta  content="text/html; charset=windows-1252"  http-equiv="content-type"&amp;gt;
-    &amp;lt;link  rel="alternate stylesheet"  type="text/css"  href="resource://gre-resources/plaintext.css"
-
-       title="Wrap Long Lines"&amp;gt;
-  &amp;lt;/head&amp;gt;
-  &amp;lt;body&amp;gt;
-    &amp;lt;pre&amp;gt;
-h2 { color: green; margin-left: 20px; font-family: 'Arial', sans-serif;} 
-h1 { color: purple; margin-left: 20px; font-family: 'ComicSans', sans-serif;} 
+    <pre>@font-face { font-family: HennyPenny; src: url('fonts/HennyPenny.otf');} 
+@font-face { font-family: JUNEBUG; font-weight: bold; src: url('fonts/JUNEBUG.ttf');} body { background-image:
+    url("http://cdn.akamai.steamstatic.com/steam/apps/382210/ss_514b29122aaa40e86129883fe3a5ddaebb50af51.600x338.jpg");
+    background-size:cover; } 
+h2 { color: blue; margin-left: 20px; font-family: 'HennyPenny', sans-serif;} 
+h1 { color: purple; margin-left: 20px; font-family: 'JUNEBUG', sans-serif;} 
 li { color: #777777;} 
 th {background-color: black; color: white; padding: 15px; border: 1px solid black;} 
 td { color: black; padding: 15px; text-align: left; border: 1px solid black;} 
+p { color: white;}
+input { color: white;}
+fieldset { color: white;}
+h3 { color: darkgreen;)
+br { color: white;}
+legend { color: white;}
 table { background-color: white; border: 1px solid black;}
-tr:hover {background-color: grey}&amp;lt;/pre&amp;gt;
-  &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/pre&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+tr:hover {background-color: grey}</pre>
   </body>
 </html>
